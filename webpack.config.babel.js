@@ -233,7 +233,6 @@ const config = {
       minimizer: [
         new UglifyJsPlugin(),
         new TerserPlugin(),
-        new BabiliPlugin(),
         new OptimizeCSSAssetsPlugin()
       ],
       splitChunks: {
